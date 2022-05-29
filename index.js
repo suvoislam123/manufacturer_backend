@@ -51,7 +51,7 @@ async function run() {
     const reviews = database.collection("reviews");
     console.log("DB Connected");
 
-    // auth
+    // auth dd
     app.put("/login", async (req, res) => {
       const { email, name } = req.body;
       if (name) {
